@@ -12,7 +12,6 @@ func main() {
 	//var answer int = 0
 	i := 0
 	jumps := 0
-	fmt.Println("hej")
 	file, err := os.Open("input.txt")
 	if err != nil {
 		log.Fatal(err)
